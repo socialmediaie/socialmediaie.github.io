@@ -3,10 +3,10 @@ title: List of datasets
 layout: post
 ---
 
-For POS taggin gwe use the dataset from [17,18] (OW), [7] (TIE), [20] (RT), [15](TB), [22] (DS), [12] (FS), and [12,13] (LW). 
-For NER, we use the dataset from [20] (RT), [23] (W16), [6] (W17), [9] (FN), [10] (HG),and [4] (BR), [24] (MM), [11] (YD), [21] (we do not evaluate on this) and [1] (MSM). 
-The [20] (RT) dataset is also used for chunking, and supersense tagging [14]. 
-We also use the [14] (JH) dataset for supersense tagging.
+* **POS tagging:** [17,18] (OW), [7] (TIE), [20] (RT), [15](TB), [22] (DS), [12] (FS), and [12,13] (LW). 
+* **NER:** [20] (RT), [23] (W16), [6] (W17), [9] (FN), [10] (HG),and [4] (BR), [24] (MM), [11] (YD), [21] (we do not evaluate on this) and [1] (MSM). 
+* **Chunking:** [20] (RT) dataset. 
+* **Supersense tagging:** [20] (RT) dataset, the [14] (JH) dataset.
 
 
 ## Dataset references
