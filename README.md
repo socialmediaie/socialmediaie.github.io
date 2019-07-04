@@ -7,4 +7,4 @@ For details please contact [@TheShubhanshu](https://twitter.com/TheShubhanshu)
 
 
 
-[List of datasets](/datasets.html)
+[List of datasets](/datasets.md)
