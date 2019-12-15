@@ -6,12 +6,13 @@ This project was started as part of the [PhD thesis](https://shubhanshu.com/phd_
 
 * [SocialMediaIE tool - uses neural multi-task learning to perform multiple sequence tagging and classification tasks for social media data. Currently focused on English Twitter data](https://github.com/socialmediaie/SocialMediaIE)
 * [TwitterNER - a publicly available wikipedia based tool for named entity recognition for Twitter data](https://github.com/socialmediaie/TwitterNER)
+* [Hate Speech Identiﬁcation in Indo-European Languages](https://github.com/socialmediaie/HASOC2019)
 * Tutorials on the SocialMediaIE tool: [https://socialmediaie.github.io/tutorials/](https://socialmediaie.github.io/tutorials/)
 * [List of datasets used in the project](/datasets.md)
 
 
 ## Related publications
-
+* Mishra, S. S., & Mishra, S. S. (2019). 3Idiots at HASOC 2019: Fine-tuning Transformer Neural Networks for Hate Speech Identiﬁcation in Indo-European Languages. In Proceedings of the 11th annual meeting of the Forum for Information Retrieval Evaluation (pp. 208–213). Kolkata, India. Retrieved from http://ceur-ws.org/Vol-2517/T3-4.pdf
 * Mishra, S. (2019). Multi-dataset-multi-task Neural Sequence Tagging for Information Extraction from Tweets. In Proceedings of the 30th ACM Conference on Hypertext and Social Media - HT ’19 (pp. 283–284). New York, New York, USA: ACM Press. https://doi.org/10.1145/3342220.3344929
 * Mishra, S. (2019). Information extraction from digital social trace data with applications to social media and scholarly communication data. PhD Dissertation, University of Illinois at Urbana-Champaign. https://shubhanshu.com/phd_thesis/
 * Mishra, S., & Diesner, J. (2019). Capturing Signals of Enthusiasm and Support Towards Social Issues from Twitter. In Proceedings of the 5th International Workshop on Social Media World Sensors - SIdEWayS’19 (pp. 19–24). New York, New York, USA: ACM Press. https://doi.org/10.1145/3345645.3351104
