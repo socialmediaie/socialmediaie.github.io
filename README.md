@@ -7,6 +7,7 @@ This project was started as part of the [PhD thesis](https://shubhanshu.com/phd_
 * [SocialMediaIE tool - uses neural multi-task learning to perform multiple sequence tagging and classification tasks for social media data. Currently focused on English Twitter data](https://github.com/socialmediaie/SocialMediaIE)
 * [TwitterNER - a publicly available wikipedia based tool for named entity recognition for Twitter data](https://github.com/socialmediaie/TwitterNER)
 * [Hate Speech Identiﬁcation in Indo-European Languages](https://github.com/socialmediaie/HASOC2019)
+* [Multilingual Joint Fine-tuning of Transformer models for identifying Trolling, Aggression and Cyberbullying at TRAC 2020](https://github.com/socialmediaie/TRAC2020)
 * Tutorials on the SocialMediaIE tool: [https://socialmediaie.github.io/tutorials/](https://socialmediaie.github.io/tutorials/)
 * [List of datasets used in the project](/datasets.md)
 
