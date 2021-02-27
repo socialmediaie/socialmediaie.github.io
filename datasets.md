@@ -1,8 +1,11 @@
 ---
-layout: page
-title: List of datasets
+layout: default
+title: "List of datasets used for training SocialMediaIE"
+description: "List of datasets used for training SocialMediaIE"
 permalink: /datasets/
 ---
+
+# List of datasets used for training SocialMediaIE 
 
 - [Dataset referencs](#dataset-referencs)
   * [Tagging datasets](#tagging-datasets)
