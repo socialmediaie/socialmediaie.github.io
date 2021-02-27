@@ -3,10 +3,141 @@ title: List of datasets
 layout: post
 ---
 
+## Dataset referencs
+
+### Tagging datasets
+
 * **POS tagging:** [17,18] (OW), [7] (TIE), [20] (RT), [15](TB), [22] (DS), [12] (FS), and [12,13] (LW). 
 * **NER:** [20] (RT), [23] (W16), [6] (W17), [9] (FN), [10] (HG),and [4] (BR), [24] (MM), [11] (YD), [21] (we do not evaluate on this) and [1] (MSM). 
 * **Chunking:** [20] (RT) dataset. 
 * **Supersense tagging:** [20] (RT) dataset, the [14] (JH) dataset.
+
+
+
+## Dataset statistics
+
+### Sentiment
+
+|            	|       	| tokens 	| tweets 	| vocab 	|
+|------------	|-------	|--------	|--------	|-------	|
+| data       	| split 	|        	|        	|       	|
+| Airline    	| dev   	| 20079  	| 981    	| 3273  	|
+|            	| test  	| 50777  	| 2452   	| 5630  	|
+|            	| train 	| 182040 	| 8825   	| 11697 	|
+| Clarin     	| dev   	| 80672  	| 4934   	| 15387 	|
+|            	| test  	| 205126 	| 12334  	| 31373 	|
+|            	| train 	| 732743 	| 44399  	| 84279 	|
+| GOP        	| dev   	| 16339  	| 803    	| 3610  	|
+|            	| test  	| 41226  	| 2006   	| 6541  	|
+|            	| train 	| 148358 	| 7221   	| 14342 	|
+| Healthcare 	| dev   	| 15797  	| 724    	| 3304  	|
+|            	| test  	| 16022  	| 717    	| 3471  	|
+|            	| train 	| 14923  	| 690    	| 3511  	|
+| Obama      	| dev   	| 3472   	| 209    	| 1118  	|
+|            	| test  	| 8816   	| 522    	| 2043  	|
+|            	| train 	| 31074  	| 1877   	| 4349  	|
+| SemEval    	| dev   	| 105108 	| 4583   	| 14468 	|
+|            	| test  	| 528234 	| 23103  	| 43812 	|
+|            	| train 	| 281468 	| 12245  	| 29673 	|
+
+
+### Abusive
+
+|           	|       	| tokens 	| tweets 	| vocab  	|
+|-----------	|-------	|--------	|--------	|--------	|
+| data      	| split 	|        	|        	|        	|
+| Founta    	| dev   	| 102534 	| 4663   	| 22529  	|
+|           	| test  	| 256569 	| 11657  	| 44540  	|
+|           	| train 	| 922028 	| 41961  	| 118349 	|
+| WaseemSRW 	| dev   	| 25588  	| 1464   	| 5907   	|
+|           	| test  	| 64893  	| 3659   	| 10646  	|
+|           	| train 	| 234550 	| 13172  	| 23042  	|
+
+
+### Uncertainity
+
+|        	|       	| tokens 	| tweets 	| vocab 	|
+|--------	|-------	|--------	|--------	|-------	|
+| data   	| split 	|        	|        	|       	|
+| Riloff 	| dev   	| 2126   	| 145    	| 1002  	|
+|        	| test  	| 5576   	| 362    	| 1986  	|
+|        	| train 	| 19652  	| 1301   	| 5090  	|
+| Swamy  	| dev   	| 1597   	| 73     	| 738   	|
+|        	| test  	| 3909   	| 183    	| 1259  	|
+|        	| train 	| 14026  	| 655    	| 2921  	|
+
+
+### Part of Speech Tagging
+
+|             	|                                                                                                                                                                            	| labels                                                                                                                                                                                                 	| labels_unique 	| sequences 	| tokens_unique 	| total_tokens 	|
+|-------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------	|-----------	|---------------	|--------------	|
+| data_key    	| split_prefix                                                                                                                                                               	|                                                                                                                                                                                                        	|               	|           	|               	|              	|
+| Owoputi     	| train                                                                                                                                                                      	| [!, #, $, &, ,, @, A, D, E, G, L, M, N, O, P, R, S, T, U, V, X, Y, Z, ^, ~]                                                                                                                            	| 25            	| 1547      	| 6572          	| 22326        	|
+|             	| dev                                                                                                                                                                        	| [!, #, $, &, ,, @, A, D, E, G, L, N, O, P, R, S, T, U, V, X, Z, ^, ~]                                                                                                                                  	| 23            	| 327       	| 2036          	| 4823         	|
+|             	| test                                                                                                                                                                       	| [!, #, $, &, ,, @, A, D, E, G, L, N, O, P, R, S, T, U, V, X, Z, ^, ~]                                                                                                                                  	| 23            	| 500       	| 2754          	| 7152         	|
+| Foster      	| test                                                                                                                                                                       	| [ADJ, ADP, ADV, CCONJ, DET, NOUN, NUM, PART, PRON, PUNCT, VERB, X]                                                                                                                                     	| 12            	| 250       	| 1068          	| 2841         	|
+| TwitIE      	| dev                                                                                                                                                                        	| ['', (, ), ,, :, CC, CD, DT, FW, HT, IN, JJ, JJR, JJS, MD, NN, NNP, NNPS, NNS, PDT, POS, PRP, PRP$, PUNCT, RB, RBR, RBS, RP, RT, SYM, TO, UH, URL, USR, VB, VBD, VBG, VBN, VBP, VBZ, WDT, WP, WRB]     	| 43            	| 269       	| 1229          	| 2998         	|
+|             	| test                                                                                                                                                                       	| ['', (, ), ,, :, CC, CD, DT, EX, FW, HT, IN, JJ, JJR, JJS, MD, NN, NNP, NNPS, NNS, PDT, POS, PRP, PRP#, PUNCT, RB, RBR, RBS, RP, RT, SYM, TO, UH, URL, USR, VB, VBD, VBG, VBN, VBP, VBZ, WDT, WP, WRB] 	| 45            	| 632       	| 3539          	| 12196        	|
+| dev         	| ['', (, ), ,, :, CC, CD, DT, HT, IN, JJ, JJR, JJS, MD, NN, NNP, NNS, POS, PRP, PRP#, PUNCT, RB, RBR, RP, RT, SYM, TO, UH, URL, USR, VB, VBD, VBG, VBN, VBP, VBZ, WDT, WRB] 	| 41                                                                                                                                                                                                     	| 84            	| 735       	| 1627          	|              	|
+| lowlands    	| test                                                                                                                                                                       	| [ADJ, ADP, ADV, CCONJ, DET, NOUN, NUM, PART, PRON, PUNCT, VERB, X]                                                                                                                                     	| 12            	| 1318      	| 4805          	| 19794        	|
+| Tweetbankv2 	| dev                                                                                                                                                                        	| [ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X]                                                                                                       	| 17            	| 710       	| 3271          	| 11759        	|
+|             	| train                                                                                                                                                                      	| [ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X]                                                                                                       	| 17            	| 1639      	| 5632          	| 24753        	|
+|             	| test                                                                                                                                                                       	| [ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X]                                                                                                       	| 17            	| 1201      	| 4699          	| 19095        	|
+| DiMSUM2016  	| train                                                                                                                                                                      	| [ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X]                                                                                                       	| 17            	| 4799      	| 9113          	| 73826        	|
+|             	| test                                                                                                                                                                       	| [ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X]                                                                                                       	| 17            	| 1000      	| 4010          	| 16500        	|
+
+
+### Named Entity Recognition
+
+|            	|              	| boundaries 	| labels                                                                                                                    	| labels_unique 	| sequences 	| tokens_unique 	| total_tokens 	|
+|------------	|--------------	|------------	|---------------------------------------------------------------------------------------------------------------------------	|---------------	|-----------	|---------------	|--------------	|
+| data_key   	| split_prefix 	|            	|                                                                                                                           	|               	|           	|               	|              	|
+| Finin      	| train        	| [I, B, O]  	| [LOC, PER, ORG]                                                                                                           	| 3             	| 10000     	| 19663         	| 172188       	|
+|            	| test         	| [I, B, O]  	| [LOC, PER, ORG]                                                                                                           	| 3             	| 5369      	| 13027         	| 97525        	|
+| Hege       	| test         	| [I, B, O]  	| [LOC, PER, ORG]                                                                                                           	| 3             	| 1545      	| 4552          	| 20664        	|
+| Ritter     	| train        	| [I, B, O]  	| [COMPANY, OTHER, FACILITY, PERSON, MOVIE, MUSICARTIST, GEO-LOC, TVSHOW, PRODUCT, SPORTSTEAM]                              	| 10            	| 1900      	| 7695          	| 36936        	|
+|            	| dev          	| [I, B, O]  	| [COMPANY, OTHER, PERSON, FACILITY, MOVIE, MUSICARTIST, GEO-LOC, TVSHOW, PRODUCT, SPORTSTEAM]                              	| 10            	| 240       	| 1731          	| 4612         	|
+|            	| test         	| [I, B, O]  	| [COMPANY, OTHER, PERSON, FACILITY, MOVIE, MUSICARTIST, GEO-LOC, TVSHOW, PRODUCT, SPORTSTEAM]                              	| 10            	| 254       	| 1776          	| 4921         	|
+| YODIE      	| train        	| [I, B, O]  	| [COMPANY, OTHER, PERSON, LOCATION, FACILITY, MOVIE, MUSICARTIST, GEO-LOC, UNK, TVSHOW, PRODUCT, SPORTSTEAM, ORGANIZATION] 	| 13            	| 396       	| 2554          	| 7905         	|
+|            	| test         	| [I, B, O]  	| [COMPANY, OTHER, FACILITY, LOCATION, PERSON, MOVIE, MUSICARTIST, GEO-LOC, UNK, TVSHOW, PRODUCT, SPORTSTEAM, ORGANIZATION] 	| 13            	| 397       	| 2578          	| 8032         	|
+| WNUT2016   	| train        	| [I, B, O]  	| [COMPANY, OTHER, FACILITY, PERSON, MOVIE, MUSICARTIST, GEO-LOC, TVSHOW, PRODUCT, SPORTSTEAM]                              	| 10            	| 2394      	| 9068          	| 46469        	|
+|            	| test         	| [I, B, O]  	| [COMPANY, OTHER, PERSON, FACILITY, MOVIE, MUSICARTIST, GEO-LOC, TVSHOW, PRODUCT, SPORTSTEAM]                              	| 10            	| 3850      	| 16012         	| 61908        	|
+|            	| dev          	| [I, B, O]  	| [COMPANY, OTHER, FACILITY, PERSON, MOVIE, MUSICARTIST, GEO-LOC, TVSHOW, PRODUCT, SPORTSTEAM]                              	| 10            	| 1000      	| 5563          	| 16261        	|
+| WNUT2017   	| train        	| [I, B, O]  	| [GROUP, CORPORATION, PERSON, LOCATION, PRODUCT, CREATIVE-WORK]                                                            	| 6             	| 3394      	| 12840         	| 62730        	|
+|            	| dev          	| [I, B, O]  	| [GROUP, CORPORATION, PERSON, LOCATION, PRODUCT, CREATIVE-WORK]                                                            	| 6             	| 1009      	| 3538          	| 15733        	|
+|            	| test         	| [I, B, O]  	| [GROUP, CORPORATION, PERSON, LOCATION, PRODUCT, CREATIVE-WORK]                                                            	| 6             	| 1287      	| 5759          	| 23394        	|
+| MSM2013    	| train        	| [I, B, O]  	| [LOC, MISC, PER, ORG]                                                                                                     	| 4             	| 2815      	| 8514          	| 51521        	|
+|            	| test         	| [I, B, O]  	| [LOC, PER, ORG, MISC]                                                                                                     	| 4             	| 1450      	| 5701          	| 29089        	|
+| NEEL2016   	| train        	| [I, B, O]  	| [PERSON, THING, LOCATION, EVENT, PRODUCT, ORGANIZATION, CHARACTER]                                                        	| 7             	| 2588      	| 9731          	| 51669        	|
+|            	| dev          	| [I, B, O]  	| [PERSON, LOCATION, THING, EVENT, PRODUCT, ORGANIZATION, CHARACTER]                                                        	| 7             	| 88        	| 762           	| 1647         	|
+|            	| test         	| [I, B, O]  	| [PERSON, THING, LOCATION, EVENT, PRODUCT, ORGANIZATION, CHARACTER]                                                        	| 7             	| 2663      	| 9894          	| 47488        	|
+| BROAD      	| train        	| [I, B, O]  	| [LOC, PER, ORG]                                                                                                           	| 3             	| 5605      	| 19523         	| 90060        	|
+|            	| dev          	| [I, B, O]  	| [LOC, PER, ORG]                                                                                                           	| 3             	| 933       	| 5312          	| 15169        	|
+|            	| test         	| [I, B, O]  	| [LOC, PER, ORG]                                                                                                           	| 3             	| 2802      	| 11772         	| 45159        	|
+| MultiModal 	| train        	| [I, B, O]  	| [LOC, PER, ORG, MISC]                                                                                                     	| 4             	| 4000      	| 20221         	| 64439        	|
+|            	| dev          	| [I, B, O]  	| [LOC, MISC, PER, ORG]                                                                                                     	| 4             	| 1000      	| 6832          	| 16178        	|
+|            	| test         	| [I, B, O]  	| [LOC, PER, ORG, MISC]                                                                                                     	| 4             	| 3257      	| 17381         	| 52822        	|
+
+
+### Chunking
+
+|          	|              	| boundaries 	| labels                                           	| labels_unique 	| sequences 	| tokens_unique 	| total_tokens 	|
+|----------	|--------------	|------------	|--------------------------------------------------	|---------------	|-----------	|---------------	|--------------	|
+| data_key 	| split_prefix 	|            	|                                                  	|               	|           	|               	|              	|
+| Ritter   	| train        	| [I, B, O]  	| [ADJP, PP, INTJ, ADVP, PRT, NP, SBAR, VP, CONJP] 	| 9             	| 551       	| 3158          	| 10584        	|
+|          	| dev          	| [I, B, O]  	| [ADJP, PP, INTJ, ADVP, PRT, NP, SBAR, VP]        	| 8             	| 118       	| 994           	| 2317         	|
+|          	| test         	| [I, B, O]  	| [ADJP, PP, INTJ, ADVP, PRT, NP, SBAR, VP]        	| 8             	| 119       	| 988           	| 2310         	|
+
+
+### Supersense Tagging
+
+|               	|              	| boundaries 	| labels                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      	| labels_unique 	| sequences 	| tokens_unique 	| total_tokens 	|
+|---------------	|--------------	|------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------	|-----------	|---------------	|--------------	|
+| data_key      	| split_prefix 	|            	|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             	|               	|           	|               	|              	|
+| Ritter        	| train        	| [I, B, O]  	| [NOUN.BODY, NOUN.STATE, NOUN.ARTIFACT, NOUN.ATTRIBUTE, NOUN.FOOD, NOUN.TOPS, NOUN.COGNITION, NOUN.EVENT, NOUN.OBJECT, NOUN.MOTIVE, NOUN.GROUP, VERB.COMMUNICATION, NOUN.PHENOMENON, VERB.POSSESSION, VERB.COMPETITION, NOUN.POSSESSION, NOUN.FEELING, VERB.SOCIAL, NOUN.ANIMAL, VERB.CREATION, VERB.CONSUMPTION, VERB.PERCEPTION, VERB.CONTACT, VERB.WEATHER, VERB.BODY, NOUN.LOCATION, NOUN.QUANTITY, NOUN.SUBSTANCE, NOUN.RELATION, NOUN.TIME, NOUN.PERSON, VERB.COGNITION, VERB.EMOTION, NOUN.PLANT, VERB.STATIVE, VERB.MOTION, NOUN.COMMUNICATION, NOUN.PROCESS, NOUN.ACT, VERB.CHANGE] 	| 40            	| 551       	| 3174          	| 10652        	|
+|               	| dev          	| [I, B, O]  	| [NOUN.BODY, NOUN.STATE, NOUN.ARTIFACT, NOUN.ATTRIBUTE, NOUN.FOOD, NOUN.COGNITION, NOUN.EVENT, NOUN.OBJECT, NOUN.MOTIVE, NOUN.GROUP, VERB.COMMUNICATION, NOUN.PHENOMENON, VERB.COMPETITION, VERB.POSSESSION, NOUN.POSSESSION, NOUN.FEELING, VERB.SOCIAL, NOUN.ANIMAL, VERB.CREATION, VERB.CONSUMPTION, VERB.PERCEPTION, VERB.CONTACT, VERB.BODY, NOUN.LOCATION, NOUN.QUANTITY, NOUN.SUBSTANCE, NOUN.RELATION, NOUN.TIME, VERB.COGNITION, NOUN.PERSON, VERB.EMOTION, NOUN.PLANT, VERB.STATIVE, VERB.MOTION, NOUN.COMMUNICATION, NOUN.ACT, VERB.CHANGE]                                        	| 37            	| 118       	| 1014          	| 2242         	|
+|               	| test         	| [I, B, O]  	| [NOUN.BODY, NOUN.STATE, NOUN.ARTIFACT, NOUN.ATTRIBUTE, NOUN.FOOD, NOUN.TOPS, NOUN.COGNITION, NOUN.EVENT, NOUN.OBJECT, NOUN.MOTIVE, NOUN.SHAPE, NOUN.GROUP, VERB.COMMUNICATION, NOUN.PHENOMENON, VERB.POSSESSION, NOUN.FEELING, NOUN.POSSESSION, VERB.COMPETITION, VERB.SOCIAL, NOUN.ANIMAL, VERB.CREATION, VERB.CONSUMPTION, VERB.PERCEPTION, VERB.CONTACT, VERB.WEATHER, VERB.BODY, NOUN.LOCATION, NOUN.QUANTITY, NOUN.SUBSTANCE, NOUN.RELATION, NOUN.TIME, NOUN.PERSON, VERB.COGNITION, VERB.EMOTION, VERB.STATIVE, VERB.MOTION, NOUN.COMMUNICATION, NOUN.PROCESS, NOUN.ACT, VERB.CHANGE] 	| 40            	| 118       	| 1011          	| 2291         	|
+| Johannsen2014 	| test         	| [I, B, O]  	| [NOUN.BODY, NOUN.STATE, NOUN.ARTIFACT, NOUN.ATTRIBUTE, NOUN.FOOD, NOUN.COGNITION, NOUN.EVENT, NOUN.OBJECT, NOUN.SHAPE, NOUN.GROUP, VERB.COMMUNICATION, NOUN.PHENOMENON, VERB.COMPETITION, VERB.POSSESSION, NOUN.FEELING, NOUN.POSSESSION, VERB.SOCIAL, NOUN.ANIMAL, VERB.CREATION, VERB.CONSUMPTION, VERB.PERCEPTION, VERB.CONTACT, VERB.BODY, NOUN.LOCATION, NOUN.QUANTITY, NOUN.SUBSTANCE, NOUN.RELATION, NOUN.TIME, NOUN.PERSON, VERB.COGNITION, VERB.EMOTION, VERB.STATIVE, VERB.MOTION, NOUN.COMMUNICATION, NOUN.PROCESS, NOUN.ACT, VERB.CHANGE]                                       	| 37            	| 200       	| 1249          	| 3064         	|
 
 
 ## Dataset references
