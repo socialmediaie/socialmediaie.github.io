@@ -1,6 +1,6 @@
 ---
 title: List of datasets
-layout: post
+layout: default
 ---
 
 - [Dataset referencs](#dataset-referencs)
