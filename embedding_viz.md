@@ -2,7 +2,7 @@
 layout: default
 title: "Label Embeddings for SocialMediaIE"
 description: "Label Embeddings for SocialMediaIE"
-permalink: /datasets/
+permalink: /embedding-viz/
 ---
 
 # Label Embeddings for SocialMediaIE
