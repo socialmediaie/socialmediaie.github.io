@@ -3,6 +3,22 @@ title: List of datasets
 layout: post
 ---
 
+- [Dataset referencs](#dataset-referencs)
+  * [Tagging datasets](#tagging-datasets)
+- [Dataset statistics](#dataset-statistics)
+  * [Sentiment](#sentiment)
+  * [Abusive](#abusive)
+  * [Uncertainity](#uncertainity)
+  * [Part of Speech Tagging](#part-of-speech-tagging)
+  * [Named Entity Recognition](#named-entity-recognition)
+  * [Chunking](#chunking)
+  * [Supersense Tagging](#supersense-tagging)
+- [Dataset references](#dataset-references)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
 ## Dataset referencs
 
 ### Tagging datasets
