@@ -1,6 +1,7 @@
 ---
+layout: page
 title: List of datasets
-layout: default
+permalink: /datasets/
 ---
 
 - [Dataset referencs](#dataset-referencs)
