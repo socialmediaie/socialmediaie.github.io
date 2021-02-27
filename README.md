@@ -11,6 +11,7 @@ This project was started as part of the [PhD thesis](https://shubhanshu.com/phd_
 * [Tutorials on the SocialMediaIE tool - https://socialmediaie.github.io/tutorials/](https://socialmediaie.github.io/tutorials/)
 * [List of datasets used in the project](/datasets.md)
 * [MetaCorpus - A meta corpus of social media corpus](https://github.com/socialmediaie/MetaCorpus)
+* Label Embedding Visualization [Classification](https://github.com/socialmediaie/SocialMediaIE/blob/master/notebooks/Visualize%20classification%20model%20label%20embeddings.ipynb), [Tagging](https://github.com/socialmediaie/SocialMediaIE/blob/master/notebooks/Visualize%20sequence%20tagging%20model%20label%20embeddings.ipynb)
 
 
 ## Related publications
